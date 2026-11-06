@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Dark Trap Beats - Purple Night",
+  "styles": {
+    "color": {
+      "background": "#11091C",
+      "text": "#FFFFFF"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "#E9D5FF"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#C084FC"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "#9333EA",
+          "text": "#FFFFFF"
+        },
+        "border": {
+          "radius": "8px"
+        }
+      },
+      "core/navigation": {
+        "color": {
+          "text": "#E9D5FF"
+        }
+      }
+    }
+  }
+}
