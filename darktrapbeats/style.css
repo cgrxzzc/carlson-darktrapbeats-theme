@@ -5,3 +5,303 @@ Author: Colten Carlson
 Description: Child theme for darktrapbeats, CMS 2.
 Version: 1.0
 */
+/*
+Theme Name: darktrapbeats
+Template: twentytwentyfive
+Author: Colten Carlson
+Description: Child theme for darktrapbeats, CMS 2.
+Version: 1.0
+*/
+
+/* DARK TRAP BEATS - SINGLE BEAT DESIGN */
+
+body.single-beat {
+    background: #08060e;
+    color: #f5f0ff;
+}
+
+.beat-page {
+    max-width: 850px;
+    margin: 60px auto 100px;
+    padding: 0 20px;
+}
+
+.beat-eyebrow {
+    color: #bd83ff;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.beat-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin: 12px 0 35px;
+}
+
+.beat-card {
+    background: linear-gradient(145deg, #1b122a, #0e0a16);
+    border: 1px solid #493065;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 80px #0009,
+                0 0 55px #871cff25;
+}
+
+.beat-cover {
+    max-width: 440px;
+    margin: 0 auto 30px;
+}
+
+.beat-cover img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 45px #a332ff60;
+}
+
+.beat-genre {
+    text-align: center;
+    margin: 15px 0 25px;
+}
+
+.beat-genre a {
+    display: inline-block;
+    background: #54218a;
+    color: #ffffff;
+    border: 1px solid #9c55ee;
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.beat-description {
+    text-align: center;
+    color: #d5cbe2;
+    line-height: 1.8;
+    margin: 20px auto 35px;
+    max-width: 540px;
+}
+
+.beat-details-heading {
+    border-bottom: 1px solid #503766;
+    padding-bottom: 15px;
+    color: #d7b3ff;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.beat-stats {
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.beat-stats .wp-block-column {
+    background: #261937;
+    border: 1px solid #50376c;
+    border-radius: 12px;
+    padding: 22px 12px;
+    text-align: center;
+}
+
+.beat-stats .wp-block-column p:first-child {
+    color: #bfa1d8;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.beat-stats .wp-block-column p:nth-child(2) {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .beat-card {
+        padding: 20px;
+    }
+
+    .beat-page {
+        margin-top: 35px;
+    }
+}
+
+
+/* DARK TRAP BEATS - ARCHIVE */
+
+body.post-type-archive-beat {
+    background: #08060e;
+    color: #f5f0ff;
+}
+
+.beat-archive {
+    max-width: 1250px;
+    margin: 65px auto 100px;
+    padding: 0 25px;
+}
+
+.archive-eyebrow {
+    text-align: center;
+    color: #b779ff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.archive-heading {
+    text-align: center;
+    color: #fff;
+    font-size: clamp(32px, 5vw, 60px);
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 12px 0;
+}
+
+.archive-subtitle {
+    text-align: center;
+    color: #afa2bf;
+    margin: 15px auto 55px;
+    max-width: 600px;
+}
+
+.beat-archive .wp-block-post-template {
+    gap: 28px;
+}
+
+.beat-grid-card {
+    background: linear-gradient(145deg, #1d142b, #100a19);
+    border: 1px solid #422a60;
+    border-radius: 18px;
+    padding: 18px;
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform .25s, box-shadow .25s;
+}
+
+.beat-grid-card:hover {
+    transform: translateY(-6px);
+    border-color: #a855f7;
+    box-shadow: 0 12px 45px #8b2cf640;
+}
+
+.beat-grid-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.beat-grid-title {
+    margin: 18px 0 8px;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.beat-grid-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.beat-grid-title a:hover {
+    color: #bd83ff;
+}
+
+.beat-grid-genre {
+    font-size: 13px;
+}
+
+.beat-grid-genre a {
+    color: #c18cff;
+    text-decoration: none;
+}
+
+.beat-price-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #ab96c0;
+    margin-top: 25px;
+}
+
+.beat-grid-price {
+    font-size: 28px;
+    font-weight: 800;
+    color: #d6a9ff;
+    margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+    .beat-archive .wp-block-post-template {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 540px) {
+    .beat-archive .wp-block-post-template {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* DARK TRAP BEATS - NAVIGATION */
+
+.beat-navbar {
+    background: #120b1c;
+    border-bottom: 1px solid #57327b;
+    padding: 18px 5%;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.beat-navbar-brand a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.beat-navbar .wp-block-navigation-item__content {
+    color: #e9def5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.beat-navbar .wp-block-navigation-item__content:hover {
+    color: #c084fc;
+}
+
+.beat-navbar .wp-block-navigation__responsive-container.is-menu-open {
+    background: #120b1c;
+    color: #ffffff;
+}
+
+.beat-navbar .wp-block-navigation__responsive-container-open,
+.beat-navbar .wp-block-navigation__responsive-container-close {
+    color: #ffffff;
+}
+
+.back-to-beats {
+    max-width: 850px;
+    margin: 35px auto 0;
+    padding: 0 20px;
+}
+
+.back-to-beats a {
+    color: #c084fc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.back-to-beats a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
